@@ -3,38 +3,32 @@
 ## Test Details
 
 * Test Case ID:
-  * #Number
+  * # 001
 * Test Case Name:
-  * #Number
+  * # Test Case 1
 * Component: 
   * Description
 * Test Case Designer:
-  * Name
+  * John Winter
 * Creation Date:
-  * Date
+  * 9/1/1997
 * Modified By:
-  * Name
+  * Robert Solano
 * Modified Date:
-  * Date
+  * 10/10/2001
 * Requirements Covered:
-  * Description
+  * Load Game Requirements
 * Test Description/Purpose:
-  * Description
+  * To Test The Functionality of the games Loading System
 * Pre-Test Conditions:
-  * Description
+  * Correct Save File, No Save File, Tampered Save File
 ## Test Steps: 
 | # | Description | Expected Result | Check (√) |
 | --- | --- | --- | --- |
-| 1 | | | |			
-| 2 | | | |			
-| 3 | | | |			
-| 4 | | | |			
-| 5 | | | |			
-| 6 | | | |			
-| 7 | | | |			
-| 8 | | | |			
-| 9 | | | |			
-| 10 | | | |			
+| 1 |Load Story Mode Save | Save Should Load | √ |			
+| 2 | File Doesnt Exist| Load Shouldnt Happen | √ |			
+| 3 | Tampered File Format| Game Should'nt Load | √ |			
+
 
 ## Overall Test Status:
 
@@ -43,8 +37,7 @@
 ## Run History:
 | # |	Run Date |	Run By |	Results |
 | --- | --- | --- | --- |
-| 1 | | | |			
-| 2 | | | |			
-| 3 | | | |			
-
+| 1 |9/20/1997 | 9/21/1997| √ |			
+| 2 |5/15/1998 |6/10/1998 |√ |			
+| 3 |9/20/2001 | 9/21/2001| √ |			
 
