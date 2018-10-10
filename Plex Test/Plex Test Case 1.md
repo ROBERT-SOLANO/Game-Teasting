@@ -7,7 +7,7 @@
 * Test Case Name:
   * # Test Case 1
 * Component: 
-  * Description
+  * Load Game Requirements
 * Test Case Designer:
   * John Winter
 * Creation Date:
