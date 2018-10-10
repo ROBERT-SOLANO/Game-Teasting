@@ -3,11 +3,11 @@
 ## Test Details
 
 * Test Case ID:
-  * # 001
+  * # 002
 * Test Case Name:
-  * # Test Case 1
+  * # Test Case 2
 * Component: 
-  * Description
+  * Saving 
 * Test Case Designer:
   * John Winter
 * Creation Date:
@@ -17,22 +17,23 @@
 * Modified Date:
   * 10/10/2001
 * Requirements Covered:
-  * Load Game Requirements
+  * Save Game 
 * Test Description/Purpose:
-  * To Test The Functionality of the games Loading System
+  * To Test The Save Game Features
 * Pre-Test Conditions:
-  * Correct Save File, No Save File, Tampered Save File
+  * Story Save Game, Wrong Save Name, Second Save With Same Name, No Save, Wrong Save File Format
 ## Test Steps: 
 | # | Description | Expected Result | Check (√) |
 | --- | --- | --- | --- |
-| 1 |Load Story Mode Save | Save Should Load | √ |			
-| 2 | File Doesnt Exist| Load Shouldnt Happen | √ |			
-| 3 | Tampered File Format| Game Should'nt Load | √ |			
-
+| 1 |Get A Story Mode Save| Save Should Load Story mode| √ |			
+| 2 |Save File Name with weird Characters| Save might run in to complications| √ |			
+| 3 |Created Save File|Save Should Be overwritten upon saving| √ |			
+| 4 |If Save Doesnt Exist it will be created|Creating a new save| √ |			
+| 5 |Save made in wrong format|Save Should'nt be able to load| √ |
 
 ## Overall Test Status:
 
-
+Test Passed with expected results
 
 ## Run History:
 | # |	Run Date |	Run By |	Results |
