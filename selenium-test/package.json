@@ -1,12 +1,14 @@
 {
-  "name": "selenium-test",
+  "name": "node-test",
   "version": "1.0.0",
-  "description": "selenium test",
+  "description": "test for my npm projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
-  "keywords": [],
   "author": "Robert Solano",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
 }
